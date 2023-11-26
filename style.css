@@ -19,13 +19,42 @@ h1{
     background-image: url(images/table.jpg);
     background-size: 100% 100%;
 }
+.dreame-big{
+    background-image: url(images/table2.jpg);
+    background-size: 100% 100%;
+}
+.experience-area{
+    background-image: url(images/sea.jpg);
+    background-size: 100% 100%;
+}
+.experience-item{
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+}
 .flexible-container{
     display: flex;
+    margin-bottom: 100px;
+}
+#full-stack-dev{
+    border-left: 10px solid;
+    border-image: linear-gradient(yellow, purple);
+    border-image-slice: 1;
+}
+#baby-web-dev{
+    border-left: 10px solid;
+    border-image: linear-gradient(yellow, purple);
+    border-image-slice: 1;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    padding-right: 5%;
 }
 .half-width img{
     width: 50%;
+}
+footer{
+    text-align: center;
 }
